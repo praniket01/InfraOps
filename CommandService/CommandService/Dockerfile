@@ -13,4 +13,4 @@ WORKDIR /app
 COPY --from=build-env /app/out .
 
 ENV ASPNETCORE_URLS=http://+:80
-ENTRYPOINT ["dotnet","PlatformService.dll"]
+ENTRYPOINT ["dotnet","CommandService.dll"]

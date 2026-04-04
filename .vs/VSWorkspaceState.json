@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\PlatformServices",
+    "\\PlatformServices\\PlatformService",
+    "\\PlatformServices\\PlatformService\\PlatformService",
+    "\\PlatformServices\\PlatformService\\PlatformService\\Dto"
+  ],
+  "SelectedNode": "\\PlatformServices\\PlatformService\\PlatformService\\Controllers",
+  "PreviewInSolutionExplorer": false
+}

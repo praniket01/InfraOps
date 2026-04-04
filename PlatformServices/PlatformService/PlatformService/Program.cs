@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using PlatformService.Communicator.Http;
 using PlatformService.Data;
 using PlatformService.Repository;
 using PlatformService.Repository.Impl;
@@ -16,7 +17,7 @@ builder.Services.AddDbContext<PlatformDbContext>(opt =>
 );
 
 builder.Services.AddScoped<IPlatform, PlatformRepo>();
-
+builder.Services.AddHttpClient<ICommandDataClient, HttpCommandDataClient>();
 
 var app = builder.Build();
 
