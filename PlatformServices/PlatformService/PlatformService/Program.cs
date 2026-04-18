@@ -13,7 +13,7 @@ builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 //configure the DB context
 builder.Services.AddDbContext<PlatformDbContext>(opt =>
-    opt.UseSqlServer(builder.Configuration.GetConnectionString("PlatFormDB"))
+    opt.UseSqlServer(builder.Configuration.GetConnectionString("PlatformDB"))
 );
 
 builder.Services.AddScoped<IPlatform, PlatformRepo>();

@@ -16,6 +16,7 @@ obj/
 # Environment files
 .env
 .env.*
+**/appsettings.Production.json
 
 # Docker-related
 docker-compose.override.yml
